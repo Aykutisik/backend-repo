@@ -1,0 +1,11 @@
+version: "3.4"
+services:
+  backend:
+    image: mdnsykt/go-backend:latest
+    ports:
+      - 8086:8086
+
+  frontend:
+    image: mdnsykt/vue-frontend:latest
+    ports:
+      - 8081:8080

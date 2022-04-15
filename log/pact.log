@@ -1,0 +1,751 @@
+# Logfile created on 2022-03-21 21:31:28 +0300 by logger.rb/47272
+I, [2022-03-21T21:31:33.853131 #96022]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-21T21:31:33.859058 #96022]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-21T21:31:33.859110 #96022] DEBUG -- : body :
+I, [2022-03-21T21:31:33.876777 #96022]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 21 Mar 2022 18:31:33 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-21T21:31:33.876842 #96022] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-21T21:31:33.878675 #96022]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-21T21:31:34.053087 #96022]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2022-03-21T21:34:56.312191 #96212]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-21T21:34:56.318194 #96212]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-21T21:34:56.318252 #96212] DEBUG -- : body :
+I, [2022-03-21T21:34:56.334151 #96212]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 21 Mar 2022 18:34:56 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-21T21:34:56.334221 #96212] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-21T21:34:56.336111 #96212]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-21T21:34:56.519298 #96212]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2022-03-21T21:36:33.606225 #96331]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-21T21:36:33.613650 #96331]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-21T21:36:33.613725 #96331] DEBUG -- : body :
+I, [2022-03-21T21:36:33.637195 #96331]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 21 Mar 2022 18:36:33 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-21T21:36:33.637279 #96331] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-21T21:36:33.639999 #96331]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-21T21:36:33.810358 #96331]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2022-03-21T21:37:43.976658 #96455]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-21T21:37:43.983361 #96455]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-21T21:37:43.983447 #96455] DEBUG -- : body :
+I, [2022-03-21T21:37:44.001152 #96455]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 21 Mar 2022 18:37:44 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-21T21:37:44.001226 #96455] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-21T21:37:44.003172 #96455]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-21T21:37:44.199721 #96455]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2022-03-21T21:39:57.126807 #96590]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-21T21:39:57.131997 #96590]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-21T21:39:57.132047 #96590] DEBUG -- : body :
+I, [2022-03-21T21:39:57.145512 #96590]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 21 Mar 2022 18:39:57 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-21T21:39:57.145569 #96590] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-21T21:39:57.147204 #96590]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-21T21:39:57.148522 #96590]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-21T21:39:57.148572 #96590] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-21T21:39:57.151401 #96590]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 21 Mar 2022 18:39:57 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-21T21:39:57.151468 #96590] DEBUG -- : body: Created
+I, [2022-03-21T22:01:09.724377 #97179]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-21T22:01:09.732427 #97179]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-21T22:01:09.732493 #97179] DEBUG -- : body :
+I, [2022-03-21T22:01:09.750631 #97179]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 21 Mar 2022 19:01:09 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-21T22:01:09.750698 #97179] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-21T22:01:09.754816 #97179]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-21T22:01:09.756378 #97179]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-21T22:01:09.756445 #97179] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-21T22:01:09.759782 #97179]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 21 Mar 2022 19:01:09 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-21T22:01:09.759838 #97179] DEBUG -- : body: Created
+I, [2022-03-21T23:52:03.998742 #98701]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-21T23:52:04.006358 #98701]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-21T23:52:04.006409 #98701] DEBUG -- : body :
+I, [2022-03-21T23:52:04.148100 #98701]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"154", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Mon, 21 Mar 2022 20:52:04 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-21T23:52:04.148169 #98701] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /GetTodoElements</pre>
+</body>
+</html>
+
+I, [2022-03-21T23:52:04.152260 #98701]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-21T23:52:04.153664 #98701]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-21T23:52:04.153714 #98701] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-21T23:52:04.166934 #98701]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"150", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Mon, 21 Mar 2022 20:52:04 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-21T23:52:04.166990 #98701] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /CreateTodo</pre>
+</body>
+</html>
+
+I, [2022-03-22T10:40:05.290809 #99397]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-22T10:40:05.298627 #99397]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-22T10:40:05.298699 #99397] DEBUG -- : body :
+I, [2022-03-22T10:40:05.447548 #99397]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"154", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Tue, 22 Mar 2022 07:40:05 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-22T10:40:05.462092 #99397] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /GetTodoElements</pre>
+</body>
+</html>
+
+I, [2022-03-22T10:40:05.466442 #99397]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-22T10:40:05.467820 #99397]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-22T10:40:05.467866 #99397] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-22T10:40:05.475644 #99397]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"150", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Tue, 22 Mar 2022 07:40:05 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-22T10:40:05.475692 #99397] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /CreateTodo</pre>
+</body>
+</html>
+
+I, [2022-03-23T18:09:53.771575 #16182]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T18:09:53.779097 #16182]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T18:09:53.779169 #16182] DEBUG -- : body :
+I, [2022-03-23T18:09:53.809781 #16182]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"154", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 15:09:53 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T18:09:53.809854 #16182] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /GetTodoElements</pre>
+</body>
+</html>
+
+I, [2022-03-23T18:09:53.814440 #16182]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T18:09:53.815954 #16182]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T18:09:53.816003 #16182] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T18:09:53.820485 #16182]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"150", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 15:09:53 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T18:09:53.820570 #16182] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /CreateTodo</pre>
+</body>
+</html>
+
+I, [2022-03-23T18:10:25.002921 #16345]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T18:10:25.009922 #16345]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T18:10:25.009976 #16345] DEBUG -- : body :
+I, [2022-03-23T18:10:25.027717 #16345]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"154", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 15:10:25 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T18:10:25.027784 #16345] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /GetTodoElements</pre>
+</body>
+</html>
+
+I, [2022-03-23T18:10:25.032259 #16345]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T18:10:25.033738 #16345]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T18:10:25.033790 #16345] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T18:10:25.036198 #16345]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"150", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 15:10:25 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T18:10:25.036240 #16345] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /CreateTodo</pre>
+</body>
+</html>
+
+I, [2022-03-23T18:50:17.569597 #17064]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T18:50:17.575844 #17064]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T18:50:17.575914 #17064] DEBUG -- : body :
+I, [2022-03-23T18:50:17.593832 #17064]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"154", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 15:50:17 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T18:50:17.593894 #17064] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /GetTodoElements</pre>
+</body>
+</html>
+
+I, [2022-03-23T18:50:17.598345 #17064]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T18:50:17.599856 #17064]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T18:50:17.599905 #17064] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T18:50:17.602541 #17064]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"150", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 15:50:17 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T18:50:17.602576 #17064] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /CreateTodo</pre>
+</body>
+</html>
+
+I, [2022-03-23T19:45:04.770856 #17643]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T19:45:04.776668 #17643]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T19:45:04.776716 #17643] DEBUG -- : body :
+I, [2022-03-23T19:45:04.802154 #17643]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"154", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 16:45:04 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T19:45:04.802224 #17643] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /GetTodoElements</pre>
+</body>
+</html>
+
+I, [2022-03-23T19:45:04.806836 #17643]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T19:45:04.808444 #17643]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T19:45:04.808500 #17643] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T19:45:04.812527 #17643]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"150", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 16:45:04 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T19:45:04.812598 #17643] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /CreateTodo</pre>
+</body>
+</html>
+
+I, [2022-03-23T19:51:00.728421 #17769]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T19:51:00.734488 #17769]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T19:51:00.734540 #17769] DEBUG -- : body :
+I, [2022-03-23T19:51:00.752545 #17769]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"154", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 16:51:00 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T19:51:00.752613 #17769] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /GetTodoElements</pre>
+</body>
+</html>
+
+I, [2022-03-23T19:51:00.757006 #17769]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T19:51:00.758455 #17769]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T19:51:00.758510 #17769] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T19:51:00.761124 #17769]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"150", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 16:51:00 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T19:51:00.761168 #17769] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /CreateTodo</pre>
+</body>
+</html>
+
+I, [2022-03-23T20:49:01.586451 #18067]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T20:49:01.592226 #18067]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T20:49:01.592275 #18067] DEBUG -- : body :
+I, [2022-03-23T20:49:01.613757 #18067]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"154", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 17:49:01 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T20:49:01.613830 #18067] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /GetTodoElements</pre>
+</body>
+</html>
+
+I, [2022-03-23T20:49:01.618490 #18067]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T20:49:01.620062 #18067]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T20:49:01.620112 #18067] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T20:49:01.622846 #18067]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"150", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 17:49:01 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T20:49:01.622884 #18067] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /CreateTodo</pre>
+</body>
+</html>
+
+I, [2022-03-23T20:53:12.670872 #18139]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T20:53:12.676448 #18139]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T20:53:12.676496 #18139] DEBUG -- : body :
+I, [2022-03-23T20:53:12.857511 #18139]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"258", "Content-Type"=>"application/json", "Date"=>"Wed, 23 Mar 2022 17:53:11 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-23T20:53:12.857607 #18139] DEBUG -- : body: [{"_id":"6238cfcb757a7d23eb8eba63","text":"yen,","status":0},{"_id":"6238cfd2757a7d23eb8eba65","text":"seeelam","status":0},{"_id":"623b07176b4cfc0c2019a4cb","text":"mongodeneme","status":0},{"_id":"623b0a8246627690ea95c588","text":"mongodeneme","status":0}]
+I, [2022-03-23T20:53:12.862994 #18139]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T20:53:12.864629 #18139]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T20:53:12.864692 #18139] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T20:53:13.088541 #18139]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 17:53:12 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-23T20:53:13.088623 #18139] DEBUG -- : body: Created
+I, [2022-03-23T20:54:56.890983 #18473]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T20:54:56.897558 #18473]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T20:54:56.897616 #18473] DEBUG -- : body :
+I, [2022-03-23T20:54:56.914772 #18473]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Wed, 23 Mar 2022 17:54:56 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-23T20:54:56.914859 #18473] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-23T20:54:56.916725 #18473]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T20:54:56.918579 #18473]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T20:54:56.918635 #18473] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T20:54:56.921445 #18473]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 17:54:56 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-23T20:54:56.921496 #18473] DEBUG -- : body: Created
+I, [2022-03-23T20:55:49.138411 #18538]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T20:55:49.144526 #18538]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T20:55:49.144584 #18538] DEBUG -- : body :
+I, [2022-03-23T20:55:49.160947 #18538]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"154", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 17:55:49 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T20:55:49.161010 #18538] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /GetTodoElements</pre>
+</body>
+</html>
+
+I, [2022-03-23T20:55:49.165415 #18538]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T20:55:49.166955 #18538]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T20:55:49.167011 #18538] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T20:55:49.169493 #18538]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"150", "Content-Security-Policy"=>"default-src 'none'", "Content-Type"=>"text/html; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 17:55:49 GMT", "Vary"=>"Accept-Encoding", "X-Content-Type-Options"=>"nosniff", "X-Powered-By"=>"Express"}, see debug logs for body
+D, [2022-03-23T20:55:49.169573 #18538] DEBUG -- : body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /CreateTodo</pre>
+</body>
+</html>
+
+I, [2022-03-23T20:58:35.580100 #18925]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T20:58:35.586295 #18925]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T20:58:35.586399 #18925] DEBUG -- : body :
+I, [2022-03-23T20:58:35.604652 #18925]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Wed, 23 Mar 2022 17:58:35 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-23T20:58:35.604714 #18925] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-23T20:58:35.606660 #18925]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T20:58:35.608115 #18925]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T20:58:35.608170 #18925] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T20:58:35.610656 #18925]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 17:58:35 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-23T20:58:35.610702 #18925] DEBUG -- : body: Created
+I, [2022-03-23T22:22:02.889323 #19767]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T22:22:02.901214 #19767]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T22:22:02.901354 #19767] DEBUG -- : body :
+I, [2022-03-23T22:22:02.926542 #19767]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Wed, 23 Mar 2022 19:22:02 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-23T22:22:02.926640 #19767] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-23T22:22:02.929258 #19767]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T22:22:02.931072 #19767]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T22:22:02.931139 #19767] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T22:22:02.933658 #19767]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 19:22:02 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-23T22:22:02.934725 #19767] DEBUG -- : body: Created
+I, [2022-03-23T23:03:21.652871 #20804]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-23T23:03:21.658579 #20804]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-23T23:03:21.658659 #20804] DEBUG -- : body :
+I, [2022-03-23T23:03:21.676902 #20804]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Wed, 23 Mar 2022 20:03:21 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-23T23:03:21.676959 #20804] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-23T23:03:21.678707 #20804]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-23T23:03:21.680079 #20804]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-23T23:03:21.680130 #20804] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-23T23:03:21.682704 #20804]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 20:03:21 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-23T23:03:21.682741 #20804] DEBUG -- : body: Created
+I, [2022-03-24T00:59:46.443362 #22439]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-24T00:59:46.449933 #22439]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-24T00:59:46.449991 #22439] DEBUG -- : body :
+I, [2022-03-24T00:59:46.468217 #22439]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Wed, 23 Mar 2022 21:59:46 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-24T00:59:46.468284 #22439] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-24T00:59:46.470107 #22439]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-24T00:59:46.471522 #22439]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-24T00:59:46.471575 #22439] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-24T00:59:46.474723 #22439]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 23 Mar 2022 21:59:46 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-24T00:59:46.474770 #22439] DEBUG -- : body: Created
+I, [2022-03-26T13:45:20.594285 #57107]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-26T13:45:20.601711 #57107]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-26T13:45:20.601802 #57107] DEBUG -- : body :
+I, [2022-03-26T13:45:20.619848 #57107]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Sat, 26 Mar 2022 10:45:20 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-26T13:45:20.619962 #57107] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-26T13:45:20.622516 #57107]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-26T13:45:20.624568 #57107]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-26T13:45:20.624636 #57107] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-26T13:45:20.628189 #57107]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 26 Mar 2022 10:45:20 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-26T13:45:20.628252 #57107] DEBUG -- : body: Created
+I, [2022-03-26T13:58:43.119192 #58429]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-26T13:58:43.125071 #58429]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-26T13:58:43.125125 #58429] DEBUG -- : body :
+I, [2022-03-26T13:58:43.141624 #58429]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Sat, 26 Mar 2022 10:58:43 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-26T13:58:43.141710 #58429] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-26T13:58:43.143668 #58429]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-26T13:58:43.145384 #58429]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-26T13:58:43.145472 #58429] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-26T13:58:43.147565 #58429]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 26 Mar 2022 10:58:43 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-26T13:58:43.147622 #58429] DEBUG -- : body: Created
+I, [2022-03-28T12:26:07.086869 #76014]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T12:26:07.093552 #76014]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T12:26:07.093624 #76014] DEBUG -- : body :
+I, [2022-03-28T12:26:07.111282 #76014]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 09:26:07 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:26:07.111345 #76014] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T12:26:07.113166 #76014]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T12:26:07.114642 #76014]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T12:26:07.114690 #76014] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T12:26:07.116601 #76014]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 09:26:07 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:26:07.116638 #76014] DEBUG -- : body: Created
+I, [2022-03-28T12:26:07.117245 #76014]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 201'
+I, [2022-03-28T12:26:07.118407 #76014]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T12:26:07.118455 #76014] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T12:26:09.116436 #76014]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 09:26:09 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T12:26:09.116513 #76014] DEBUG -- : body: 
+I, [2022-03-28T12:37:13.062316 #77157]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T12:37:13.068420 #77157]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T12:37:13.068480 #77157] DEBUG -- : body :
+I, [2022-03-28T12:37:13.084457 #77157]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 09:37:13 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:37:13.084526 #77157] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T12:37:13.086402 #77157]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T12:37:13.087756 #77157]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T12:37:13.087822 #77157] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T12:37:13.090963 #77157]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 09:37:13 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:37:13.091011 #77157] DEBUG -- : body: Created
+I, [2022-03-28T12:37:13.091698 #77157]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 201'
+I, [2022-03-28T12:37:13.093017 #77157]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T12:37:13.093066 #77157] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T12:37:37.172579 #77157]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2022-03-28T12:42:12.938078 #78029]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T12:42:12.943924 #78029]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T12:42:12.943979 #78029] DEBUG -- : body :
+I, [2022-03-28T12:42:12.961879 #78029]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 09:42:12 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:42:12.961949 #78029] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T12:42:12.963762 #78029]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T12:42:12.965193 #78029]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T12:42:12.965251 #78029] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T12:42:12.968465 #78029]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 09:42:12 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:42:12.968534 #78029] DEBUG -- : body: Created
+I, [2022-03-28T12:42:12.969207 #78029]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 201'
+I, [2022-03-28T12:42:12.970533 #78029]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T12:42:12.970610 #78029] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T12:42:37.293217 #78029]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2022-03-28T12:43:08.832780 #78186]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T12:43:08.838571 #78186]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T12:43:08.838627 #78186] DEBUG -- : body :
+I, [2022-03-28T12:43:08.858833 #78186]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 09:43:08 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:43:08.858906 #78186] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T12:43:08.861581 #78186]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T12:43:08.863043 #78186]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T12:43:08.863100 #78186] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T12:43:08.865157 #78186]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 09:43:08 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:43:08.865205 #78186] DEBUG -- : body: Created
+I, [2022-03-28T12:43:08.865914 #78186]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 201'
+I, [2022-03-28T12:43:08.867983 #78186]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T12:43:08.868058 #78186] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T12:45:09.141358 #78186]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 09:45:09 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T12:45:09.142794 #78186] DEBUG -- : body: 
+I, [2022-03-28T12:53:04.105522 #79359]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T12:53:04.112014 #79359]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T12:53:04.112074 #79359] DEBUG -- : body :
+I, [2022-03-28T12:53:04.130314 #79359]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 09:53:04 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:53:04.130398 #79359] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T12:53:04.132232 #79359]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T12:53:04.134044 #79359]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T12:53:04.134097 #79359] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T12:53:04.136078 #79359]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 09:53:04 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:53:04.136150 #79359] DEBUG -- : body: Created
+I, [2022-03-28T12:53:04.136807 #79359]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 201'
+I, [2022-03-28T12:53:04.138044 #79359]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T12:53:04.138095 #79359] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T12:55:04.348776 #79359]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 09:55:04 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T12:55:04.348858 #79359] DEBUG -- : body: 
+I, [2022-03-28T12:55:53.703097 #79662]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T12:55:53.709057 #79662]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T12:55:53.709109 #79662] DEBUG -- : body :
+I, [2022-03-28T12:55:53.726683 #79662]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 09:55:53 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:55:53.726770 #79662] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T12:55:53.729296 #79662]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T12:55:53.731384 #79662]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T12:55:53.731460 #79662] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T12:55:53.734732 #79662]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 09:55:53 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T12:55:53.734795 #79662] DEBUG -- : body: Created
+I, [2022-03-28T12:55:53.735737 #79662]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 201'
+I, [2022-03-28T12:55:53.737254 #79662]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T12:55:53.737321 #79662] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T12:57:53.965123 #79662]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 09:57:53 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T12:57:53.965585 #79662] DEBUG -- : body: 
+I, [2022-03-28T13:19:20.300288 #82527]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T13:19:20.306151 #82527]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T13:19:20.306209 #82527] DEBUG -- : body :
+I, [2022-03-28T13:19:20.322023 #82527]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 10:19:20 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T13:19:20.322085 #82527] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T13:19:20.323910 #82527]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T13:19:20.325450 #82527]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T13:19:20.325506 #82527] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T13:19:20.327604 #82527]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 10:19:20 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T13:19:20.327652 #82527] DEBUG -- : body: Created
+I, [2022-03-28T13:19:20.328326 #82527]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 201'
+I, [2022-03-28T13:19:20.330347 #82527]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T13:19:20.330417 #82527] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T13:20:48.771440 #82708]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T13:20:48.777273 #82708]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T13:20:48.777318 #82708] DEBUG -- : body :
+I, [2022-03-28T13:21:13.176713 #82708]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has a matching body'
+I, [2022-03-28T13:21:13.378774 #82708]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2022-03-28T13:21:13.571115 #82708]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T13:21:13.764201 #82708]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which includes headers "Content-Type" which equals "text/plain; charset=utf-8"'
+I, [2022-03-28T13:21:13.970436 #82708]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 201'
+I, [2022-03-28T13:21:14.141200 #82708]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which includes headers "Content-Type" which equals "text/plain; charset=utf-8"'
+I, [2022-03-28T13:21:20.711981 #82527]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 10:21:20 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T13:21:20.712064 #82527] DEBUG -- : body: 
+I, [2022-03-28T15:01:08.749195 #92009]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T15:01:08.755865 #92009]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T15:01:08.755933 #92009] DEBUG -- : body :
+I, [2022-03-28T15:01:08.776003 #92009]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 12:01:08 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T15:01:08.776074 #92009] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T15:01:08.778303 #92009]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T15:01:08.780353 #92009]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T15:01:08.780480 #92009] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T15:01:08.784308 #92009]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 12:01:08 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T15:01:08.784386 #92009] DEBUG -- : body: Created
+I, [2022-03-28T15:01:08.785239 #92009]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T15:01:08.787049 #92009]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T15:01:08.787129 #92009] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T15:10:28.699035 #92009]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:10:28 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:10:28.700964 #92009] DEBUG -- : body: 
+I, [2022-03-28T15:17:03.752873 #93618]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T15:17:03.759648 #93618]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T15:17:03.759805 #93618] DEBUG -- : body :
+I, [2022-03-28T15:17:03.781958 #93618]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 12:17:03 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T15:17:03.782039 #93618] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T15:17:03.784088 #93618]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T15:17:03.785833 #93618]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T15:17:03.785894 #93618] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T15:17:03.789879 #93618]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 12:17:03 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T15:17:03.789971 #93618] DEBUG -- : body: Created
+I, [2022-03-28T15:17:03.791082 #93618]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T15:17:03.793312 #93618]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T15:17:03.793402 #93618] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T15:19:04.177826 #93618]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:19:04 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:19:04.177922 #93618] DEBUG -- : body: 
+I, [2022-03-28T15:19:58.958458 #93926]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T15:19:58.966236 #93926]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T15:19:58.966301 #93926] DEBUG -- : body :
+I, [2022-03-28T15:19:58.984050 #93926]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:19:58 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:19:58.984117 #93926] DEBUG -- : body: 
+I, [2022-03-28T15:19:58.988633 #93926]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T15:19:58.990278 #93926]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T15:19:58.990335 #93926] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T15:19:58.992024 #93926]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:19:58 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:19:58.992066 #93926] DEBUG -- : body: 
+I, [2022-03-28T15:19:58.992881 #93926]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T15:19:58.994105 #93926]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T15:19:58.994161 #93926] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T15:19:58.995674 #93926]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:19:58 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:19:58.995717 #93926] DEBUG -- : body: 
+I, [2022-03-28T15:20:29.254615 #94019]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T15:20:29.261333 #94019]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T15:20:29.261392 #94019] DEBUG -- : body :
+I, [2022-03-28T15:20:29.277229 #94019]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:20:29 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:20:29.277308 #94019] DEBUG -- : body: 
+I, [2022-03-28T15:20:29.282089 #94019]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T15:20:29.283957 #94019]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T15:20:29.284038 #94019] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T15:20:29.287556 #94019]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:20:29 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:20:29.287628 #94019] DEBUG -- : body: 
+I, [2022-03-28T15:20:29.288616 #94019]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T15:20:29.290398 #94019]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T15:20:29.290470 #94019] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T15:20:29.292398 #94019]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:20:29 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:20:29.292446 #94019] DEBUG -- : body: 
+I, [2022-03-28T15:22:52.939646 #94275]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T15:22:52.947772 #94275]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T15:22:52.947832 #94275] DEBUG -- : body :
+I, [2022-03-28T15:22:52.965068 #94275]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:22:52 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:22:52.965181 #94275] DEBUG -- : body: 
+I, [2022-03-28T15:22:52.970707 #94275]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T15:22:52.972550 #94275]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T15:22:52.972612 #94275] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T15:22:52.974649 #94275]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:22:52 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:22:52.974702 #94275] DEBUG -- : body: 
+I, [2022-03-28T15:22:52.975616 #94275]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T15:22:52.977002 #94275]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T15:22:52.977057 #94275] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T15:22:52.978757 #94275]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:22:52 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:22:52.978808 #94275] DEBUG -- : body: 
+I, [2022-03-28T15:23:21.971116 #94381]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T15:23:21.978037 #94381]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T15:23:21.978108 #94381] DEBUG -- : body :
+I, [2022-03-28T15:23:21.997828 #94381]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:23:21 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:23:21.997905 #94381] DEBUG -- : body: 
+I, [2022-03-28T15:23:22.002732 #94381]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T15:23:22.004503 #94381]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T15:23:22.004566 #94381] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T15:23:22.006624 #94381]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:23:22 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:23:22.006696 #94381] DEBUG -- : body: 
+I, [2022-03-28T15:23:22.007636 #94381]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T15:23:22.009276 #94381]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T15:23:22.009341 #94381] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T15:23:22.011148 #94381]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:23:22 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:23:22.011197 #94381] DEBUG -- : body: 
+I, [2022-03-28T15:23:56.652293 #94479]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T15:23:56.657917 #94479]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T15:23:56.657971 #94479] DEBUG -- : body :
+I, [2022-03-28T15:23:56.674773 #94479]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:23:56 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:23:56.674842 #94479] DEBUG -- : body: 
+I, [2022-03-28T15:23:56.679087 #94479]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T15:23:56.680745 #94479]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T15:23:56.680806 #94479] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T15:23:56.682404 #94479]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:23:56 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:23:56.682452 #94479] DEBUG -- : body: 
+I, [2022-03-28T15:23:56.683296 #94479]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T15:23:56.684696 #94479]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T15:23:56.684757 #94479] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T15:23:56.686487 #94479]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:23:56 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:23:56.686537 #94479] DEBUG -- : body: 
+I, [2022-03-28T15:24:43.297839 #94614]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T15:24:43.304272 #94614]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T15:24:43.304329 #94614] DEBUG -- : body :
+I, [2022-03-28T15:24:43.319259 #94614]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:24:43 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:24:43.319324 #94614] DEBUG -- : body: 
+I, [2022-03-28T15:24:43.323564 #94614]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T15:24:43.324981 #94614]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T15:24:43.325033 #94614] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T15:24:43.326692 #94614]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:24:43 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:24:43.326735 #94614] DEBUG -- : body: 
+I, [2022-03-28T15:24:43.327613 #94614]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T15:24:43.328916 #94614]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T15:24:43.328974 #94614] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T15:24:43.330511 #94614]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:24:43 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:24:43.330552 #94614] DEBUG -- : body: 
+I, [2022-03-28T15:32:19.634063 #95352]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T15:32:19.640097 #95352]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T15:32:19.640151 #95352] DEBUG -- : body :
+I, [2022-03-28T15:32:19.657967 #95352]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:32:19 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:32:19.658037 #95352] DEBUG -- : body: 
+I, [2022-03-28T15:32:19.662488 #95352]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T15:32:19.664144 #95352]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T15:32:19.664206 #95352] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T15:32:19.665892 #95352]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:32:19 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:32:19.665936 #95352] DEBUG -- : body: 
+I, [2022-03-28T15:32:19.666755 #95352]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T15:32:19.668061 #95352]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T15:32:19.668123 #95352] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T15:32:19.669641 #95352]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:32:19 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:32:19.669685 #95352] DEBUG -- : body: 
+I, [2022-03-28T15:34:02.451155 #95633]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T15:34:02.457489 #95633]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T15:34:02.457550 #95633] DEBUG -- : body :
+I, [2022-03-28T15:34:02.473914 #95633]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 12:34:02 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T15:34:02.473980 #95633] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T15:34:02.475898 #95633]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T15:34:02.477443 #95633]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T15:34:02.477496 #95633] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T15:34:02.479532 #95633]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 12:34:02 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T15:34:02.479579 #95633] DEBUG -- : body: Created
+I, [2022-03-28T15:34:02.480229 #95633]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T15:34:02.482097 #95633]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T15:34:02.482218 #95633] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T15:36:02.881150 #95633]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 12:36:02 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T15:36:02.882029 #95633] DEBUG -- : body: 
+I, [2022-03-28T16:19:55.823523 #99968]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T16:19:55.831005 #99968]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T16:19:55.831087 #99968] DEBUG -- : body :
+I, [2022-03-28T16:19:55.850174 #99968]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 13:19:55 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:19:55.850254 #99968] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T16:19:55.852459 #99968]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T16:19:55.854299 #99968]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T16:19:55.854368 #99968] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T16:19:55.856659 #99968]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 13:19:55 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:19:55.856714 #99968] DEBUG -- : body: Created
+I, [2022-03-28T16:19:55.857487 #99968]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T16:19:55.859018 #99968]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T16:19:55.859081 #99968] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T16:19:55.862986 #99968]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"2", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 13:19:55 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:19:55.863067 #99968] DEBUG -- : body: OK
+I, [2022-03-28T16:26:24.228008 #958]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T16:26:24.233801 #958]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T16:26:24.233858 #958] DEBUG -- : body :
+I, [2022-03-28T16:26:24.249948 #958]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 13:26:24 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:26:24.250018 #958] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T16:26:24.251799 #958]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T16:26:24.253581 #958]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T16:26:24.253641 #958] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T16:26:24.256346 #958]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 13:26:24 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:26:24.256393 #958] DEBUG -- : body: Created
+I, [2022-03-28T16:26:24.257084 #958]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T16:26:24.258401 #958]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T16:26:24.258455 #958] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T16:28:24.652788 #958]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 13:28:24 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T16:28:24.652893 #958] DEBUG -- : body: 
+I, [2022-03-28T16:28:43.293978 #1221]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T16:28:43.299671 #1221]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T16:28:43.299734 #1221] DEBUG -- : body :
+I, [2022-03-28T16:28:43.313923 #1221]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 13:28:43 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:28:43.313993 #1221] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T16:28:43.315701 #1221]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T16:28:43.317286 #1221]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T16:28:43.317344 #1221] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T16:28:43.319645 #1221]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 13:28:43 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:28:43.319696 #1221] DEBUG -- : body: Created
+I, [2022-03-28T16:28:43.320537 #1221]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T16:28:43.322050 #1221]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T16:28:43.322112 #1221] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T16:30:43.733194 #1221]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 13:30:43 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T16:30:43.733278 #1221] DEBUG -- : body: 
+I, [2022-03-28T16:32:29.187967 #1616]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T16:32:29.193401 #1616]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T16:32:29.193459 #1616] DEBUG -- : body :
+I, [2022-03-28T16:32:29.209048 #1616]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 13:32:29 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:32:29.209124 #1616] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T16:32:29.210838 #1616]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T16:32:29.212449 #1616]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T16:32:29.212509 #1616] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T16:32:29.215702 #1616]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 13:32:29 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:32:29.215758 #1616] DEBUG -- : body: Created
+I, [2022-03-28T16:32:29.216516 #1616]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T16:32:29.218152 #1616]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T16:32:29.218227 #1616] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T16:34:29.606593 #1616]  INFO -- : Received response with status: 502, headers: {"Date"=>"Mon, 28 Mar 2022 13:34:29 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-03-28T16:34:29.606679 #1616] DEBUG -- : body: 
+I, [2022-03-28T16:36:15.636216 #2022]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-28T16:36:15.641374 #2022]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-28T16:36:15.641428 #2022] DEBUG -- : body :
+I, [2022-03-28T16:36:15.655435 #2022]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Mon, 28 Mar 2022 13:36:15 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:36:15.655508 #2022] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-28T16:36:15.657191 #2022]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-28T16:36:15.658773 #2022]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-28T16:36:15.658828 #2022] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-28T16:36:15.661641 #2022]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 13:36:15 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:36:15.661706 #2022] DEBUG -- : body: Created
+I, [2022-03-28T16:36:15.662437 #2022]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-28T16:36:15.663893 #2022]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-28T16:36:15.663954 #2022] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-28T16:36:15.665753 #2022]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"2", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 28 Mar 2022 13:36:15 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-28T16:36:15.665795 #2022] DEBUG -- : body: OK
+I, [2022-03-29T11:24:26.049537 #41746]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given there are already exists todos request for geting todos with GET /GetTodoElements returns a response which has status code 200'
+I, [2022-03-29T11:24:26.056400 #41746]  INFO -- : Sending GET request to path: "/GetTodoElements" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"there are already exists todos"}]}, see debug logs for body
+D, [2022-03-29T11:24:26.056445 #41746] DEBUG -- : body :
+I, [2022-03-29T11:24:26.072942 #41746]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"131", "Content-Type"=>"application/json", "Date"=>"Tue, 29 Mar 2022 08:24:26 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-29T11:24:26.073001 #41746] DEBUG -- : body: [{"_id":"62234346c2a65768f2c03ca5","text":"drink water","status":0},{"_id":"6225bfaec2a65768f2c03ca6","text":"bla bla","status":0}]
+I, [2022-03-29T11:24:26.075132 #41746]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given a todo item is created create item request with POST /CreateTodo returns a response which has status code 201'
+I, [2022-03-29T11:24:26.076699 #41746]  INFO -- : Sending POST request to path: "/CreateTodo" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a todo item is created"}]}, see debug logs for body
+D, [2022-03-29T11:24:26.076748 #41746] DEBUG -- : body :{"status":0,"text":"new todo element"}
+I, [2022-03-29T11:24:26.079866 #41746]  INFO -- : Received response with status: 201, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"7", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 29 Mar 2022 08:24:26 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-29T11:24:26.079908 #41746] DEBUG -- : body: Created
+I, [2022-03-29T11:24:26.080583 #41746]  INFO -- : Running example 'Verifying a pact between todo and todo-backend Given All todo items is seen Empty List with PUT /DeleteAll returns a response which has status code 200'
+I, [2022-03-29T11:24:26.081812 #41746]  INFO -- : Sending PUT request to path: "/DeleteAll" with headers: {"HTTP_ACCEPT"=>"application/json", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"All todo items is seen"}]}, see debug logs for body
+D, [2022-03-29T11:24:26.081863 #41746] DEBUG -- : body :[{"status":0,"text":"new todo element"},{"status":0,"text":"new todo element"}]
+I, [2022-03-29T11:24:26.083756 #41746]  INFO -- : Received response with status: 200, headers: {"Access-Control-Allow-Origin"=>"*", "Content-Length"=>"2", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 29 Mar 2022 08:24:26 GMT", "Vary"=>"Origin"}, see debug logs for body
+D, [2022-03-29T11:24:26.083791 #41746] DEBUG -- : body: OK
